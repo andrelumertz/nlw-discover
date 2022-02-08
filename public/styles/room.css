@@ -38,7 +38,7 @@
 #question-form h2{
     font-family: 'Poppins', sans-serif;
     font-size: 2.8rem;
-    color: var(--black);
+    color: var(--white);
     font-weight: 700;
     line-height: 4.2rem;
 
@@ -46,11 +46,12 @@
 }
 
 #question-form form{
-    border: .2rem solid var(--grey-blue);
+    border: .2rem solid var(--blue);
     padding: 1.6rem;
     border-radius: 0 .8rem .8rem .8rem;
 
     margin-bottom: 1.6rem;
+    color: #fff;
 }
 
 #question-form form textarea{
@@ -60,10 +61,11 @@
     width: 100%;
 
     outline: none;
+    color: #fff;
 }
 
 #question-form form textarea::placeholder{
-    color: var(--grey-blue);
+    color: var(--white);
 }
 
 #question-form form footer{
